@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js App deployed via AWS CodePipeline! EC2');
+  res.send('Hello from Node.js App deployed via AWS CodePipeline!');
 });
 
 app.listen(port, () => {
